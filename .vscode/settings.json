@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "dbtbasic",
+            "database": "${workspaceFolder:dbtsqlite}/dbtbasic/dbtbasic.db"
+        }
+    ],
+    "dbcode.connections": [
+        {
+            "connectionId": "aY0nGNvOQxX30nIIhON0R",
+            "name": "DBTBASIC",
+            "driver": "sqlite",
+            "connectionType": "socket",
+            "socket": "dbtsqlite/dbtbasic/dbtbasic.db",
+            "readOnly": false,
+            "driverOptions": {
+                "extensions": []
+            },
+            "idleTimeout": 0
+        }
+    ]
+}
