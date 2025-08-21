@@ -1,0 +1,4 @@
+order_item_id,order_id,product,quantity,price
+1001,101,Keyboard,1,50
+1002,101,Mouse,2,50
+1003,102,Laptop,1,200
