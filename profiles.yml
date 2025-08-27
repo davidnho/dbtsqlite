@@ -1,0 +1,28 @@
+# code echo /home/gitpod/.dbt/profiles.yml
+dbtCustomerOrders:
+  outputs:
+
+    dev:
+      type: sqlite
+      threads: 1
+      database: 'dbtCustomerOrders.db'
+      schema: 'main'
+      schemas_and_paths:
+        main: 'dbtCustomerOrders.db'
+      schema_directory: '/data'
+     
+
+    prod:
+      type: sqlite
+      threads: 1
+      database: 'dbtCustomerOrders.db'
+      schema: 'main'
+      schemas_and_paths:
+        main: 'dbtCustomerOrders.db'
+      schema_directory: '/data'
+  
+
+  target: dev
+
+
+  # '/workspace/dbtsqlite/dbtCustomerOrders/dbtCustomerOrders.db'
